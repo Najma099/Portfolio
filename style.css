@@ -7,6 +7,9 @@
     font-family: "Poppins", sans-serif;
   
 }
+html{
+    scroll-behavior: smooth;
+}
 .nav_bar{
     display:flex;
     gap:3.5rem;
@@ -17,15 +20,19 @@
     position: fixed;
     text-transform: uppercase;
     background-color: #262525;
-
+    position:sticky;
 }
-.nav_bar li{
-    list-style: none;
+
+.Education ul li{
+    list-style:none;
 }
 .nav_bar li a{
     text-decoration: none;
     font-size: 1rem;
     color:white;
+}
+.nav_bar{
+    list-style: none;
 }
 .portfolio-container{
     text-decoration: none;
@@ -36,6 +43,9 @@
 .color-box{
     height:100vh;
     display:flex;
+    position:sticky;
+    z-index:2;
+    top:0;
 }
 .left-container{
     padding: 30px;
@@ -59,6 +69,7 @@
     justify-content: center;
     align-items: center;
     display:flex;
+    justify-content: space-between;
     flex-direction:column;
     gap:3rem;
 }
@@ -71,6 +82,9 @@
 }
 .content h1 {
     font-size: 3rem;
+    color:#fff;
+}
+.content .aspire  span{
     color:#5DB9EE;
 }
 .content .intro span{
@@ -137,7 +151,7 @@
     padding-top:50px;
     padding-left:20px;
     background-color: #262525 ;
-    min-height:80vh;
+    min-height:90vh;
     width:100%;
     
 }
