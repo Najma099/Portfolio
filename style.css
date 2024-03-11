@@ -16,6 +16,7 @@
     align-items:center;
     position: fixed;
     text-transform: uppercase;
+    background-color: #262525;
 
 }
 .nav_bar li{
@@ -37,6 +38,7 @@
     display:flex;
 }
 .left-container{
+    padding: 30px;
     background-color:#262525;
     width:70%;
     padding-left:3rem;
@@ -45,7 +47,8 @@
     gap:30px;
 }
 .right-container{
-    background-color: #3877FF;
+    background:linear-gradient(-45deg,#3877EE,#262525 70%);
+
     width:30%;
 }
 .icons .fa-brands{
@@ -79,3 +82,82 @@
     max-width:38rem;
     margin: 1.1rem 0 3rem 0;
 }
+.content .Cont{
+    border: .1rem solid #5DB9EE;
+    font-size: 1rem;
+    padding: .8rem 1.2rem;
+    border-radius: 6px;
+    color:#fff
+}
+.Cont{
+   background:transparent ;
+}
+.Cont:hover{
+   background-color: #5DB9EE ;
+   cursor: pointer;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position:absolute;
+    border-radius: 50%;
+    top:50%;
+    left:70%;
+    transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+    background:linear-gradient(90deg,transparent 50%,#262525 50%);
+    width:20rem;
+
+}
+.circle:nth-child(2){
+    background-image: url(photo.jpg);
+    background-size:110%;
+    background-repeat: no-repeat;
+    width: 15rem;
+    box-shadow: 0 0 1rem #fff, inset 0 0 1rem #fff,
+    0 0 2rem #3877EE,
+    inset 0 0 2rem #3877EE;
+    ;
+}
+/* education */
+.Education{
+    background-image: linear-gradient(#3877EE,#262525); 
+}
+#edu{
+    text-align: center;
+}
+.Education{
+    padding-left: 30px;
+}
+.Education ul li h3{
+    text-decoration: none;
+}
+/* skills section*/
+.skill{
+    padding-top:50px;
+    padding-left:20px;
+    background-color: #262525 ;
+    min-height:80vh;
+    width:100%;
+    
+}
+.skill>p{
+    color: #fff;
+}
+.container {
+    width: 100%; 
+  }
+  
+  .skills {
+    text-align: right;  
+    padding-bottom: 10px; 
+    color: white; 
+  }
+  .container{
+    height: 20px;
+  }
+  
+  .html {height: 97% ; width: 90%; background-color: #5DB9EE ;} 
+  .css {height: 97%; width: 80% ; background-color: #5DB9EE ;} 
+  .Java {height: 97%;  width: 80% ;background-color: #5DB9EE ;} 
+  .C-programming{height: 97%;  width: 60%;background-color: #5DB9EE ;} 
