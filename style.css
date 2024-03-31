@@ -7,6 +7,9 @@
     font-family: "Poppins", sans-serif;
     list-style-type: style none;
 }
+.nav_bar:hover{
+    color: #3877EE;
+}
   
 
 html{
@@ -43,7 +46,7 @@ html{
 
 }
 .color-box{
-    height:80vh;
+    height:85vh;
     display:flex;
     position:sticky;
     z-index:2;
@@ -103,7 +106,7 @@ html{
 .content .Cont{
     border: .1rem solid #5DB9EE;
     font-size: 1rem;
-    padding: .8rem 1.2rem;
+    padding: .6rem 1.0rem;
     border-radius: 6px;
     color:#fff
 }
@@ -131,7 +134,7 @@ html{
     background-image: url(photo.jpg);
     background-size:110%;
     background-repeat: no-repeat;
-    width: 15rem;
+    width: 16.5rem;
     box-shadow: 0 0 1rem #fff, inset 0 0 1rem #fff,
     0 0 2rem #3877EE,
     inset 0 0 2rem #3877EE;
@@ -145,6 +148,7 @@ html{
 }
 .EDUC{
     padding:50px;
+    text-align: left;
 }
 #ed{
     font-family: "Playfair Display", serif;
@@ -154,13 +158,11 @@ html{
     font-size: 40px;
     text-decoration: underline;
     color:#fff;
-
-}
-
-#edu{
     text-align: center;
-      
+
 }
+
+
 .Education{
     padding-left: 30px;
 }
@@ -172,7 +174,7 @@ html{
     padding-top:50px;
     padding-left:20px;
     background-color: #262525 ;
-    min-height:90vh;
+    min-height:70vh;
     width:100%;
     color: #fff;
     
@@ -196,7 +198,7 @@ html{
   
   .skills {
     text-align: right;  
-    padding-bottom: 10px;  
+    padding-bottom: 1px;  
   }
   .container{
     height: 20px;
