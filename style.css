@@ -5,8 +5,10 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-  
+    list-style-type: style none;
 }
+  
+
 html{
     scroll-behavior: smooth;
 }
@@ -135,7 +137,12 @@ html{
 }
 /* education */
 .Education{
-    background-image: linear-gradient(#3877EE,#262525); 
+    /* background-image: linear-gradient(#3877EE,#262525);  */
+    background-color:#262525;
+    color: #fff;
+}
+.EDUC{
+    padding:50px;
 }
 #edu{
     text-align: center;
@@ -150,13 +157,17 @@ html{
 .skill{
     padding-top:50px;
     padding-left:20px;
-    background-color: #262525 ;
+    background-color: #0e0e0e ;
     min-height:90vh;
     width:100%;
     
 }
+#skillss{
+    background-color: #262525;
+    text-align: center;
+}
 .skill>p{
-    color: #fff;
+    
 }
 .container {
     width: 100%; 
@@ -164,8 +175,7 @@ html{
   
   .skills {
     text-align: right;  
-    padding-bottom: 10px; 
-    color: white; 
+    padding-bottom: 10px;  
   }
   .container{
     height: 20px;
@@ -175,3 +185,40 @@ html{
   .css {height: 97%; width: 80% ; background-color: #5DB9EE ;} 
   .Java {height: 97%;  width: 80% ;background-color: #5DB9EE ;} 
   .C-programming{height: 97%;  width: 60%;background-color: #5DB9EE ;} 
+
+
+
+/* PROJECT SECTION */
+  .project{
+    display:flex;
+    gap:40px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    background-color: #C5D9E2;
+}
+#proj{
+    text-align: center;
+    padding: 60px;
+    text-decoration: underline;
+    background-color: #C5D9E2;
+}
+ul{
+    list-style-type:none;
+}
+
+.card1{
+    width:40%;
+    height:150px;
+    background-color: #B3B5BB;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card2{
+    width:40%;
+    height:150px;
+    background-color:#B3B5BB;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
