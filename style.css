@@ -38,12 +38,12 @@ html{
 }
 .portfolio-container{
     text-decoration: none;
-    min-height:100vh;
+    min-height:85vh;
     width:100%;
 
 }
 .color-box{
-    height:100vh;
+    height:80vh;
     display:flex;
     position:sticky;
     z-index:2;
@@ -55,11 +55,12 @@ html{
     width:70%;
     padding-left:3rem;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     gap:30px;
 }
 .right-container{
-    background:linear-gradient(-45deg,#3877EE,#262525 70%);
+    background: linear-gradient(-45deg, #3877EE, #262525 70%), 
+    linear-gradient(-45deg, #3877EE, #262525 70%); 
 
     width:30%;
 }
@@ -68,12 +69,13 @@ html{
     font-size: 1.7rem;
 }
 .icons{
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 50px;
     display:flex;
-    justify-content: space-between;
     flex-direction:column;
-    gap:3rem;
+    gap:50px;
+    
 }
 .content{
     margin-left: 2px;
