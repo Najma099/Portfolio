@@ -144,8 +144,20 @@ html{
 .EDUC{
     padding:50px;
 }
+#ed{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: italic;
+    font-size: 40px;
+    text-decoration: underline;
+    color:#fff;
+
+}
+
 #edu{
     text-align: center;
+      
 }
 .Education{
     padding-left: 30px;
@@ -157,18 +169,25 @@ html{
 .skill{
     padding-top:50px;
     padding-left:20px;
-    background-color: #0e0e0e ;
+    background-color: #262525 ;
     min-height:90vh;
     width:100%;
+    color: #fff;
     
 }
 #skillss{
     background-color: #262525;
     text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: italic;
+    font-size: 45px;
+    text-decoration: underline;
+    color: #fff;
+
 }
-.skill>p{
-    
-}
+
 .container {
     width: 100%; 
   }
@@ -195,13 +214,20 @@ html{
     align-items: center;
     justify-content: center;
     padding-bottom: 100px;
-    background-color: #C5D9E2;
+    background-color:#262525;
 }
 #proj{
     text-align: center;
     padding: 60px;
     text-decoration: underline;
-    background-color: #C5D9E2;
+    background-color:#262525;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: italic;
+    font-size: 45px;
+    color: #fff;
+
 }
 ul{
     list-style-type:none;
@@ -221,4 +247,11 @@ ul{
     border-radius: 8px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
+}
+.project{
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
 }
