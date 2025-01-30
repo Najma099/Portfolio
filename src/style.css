@@ -52,7 +52,7 @@ main nav a {
 }
 
 #resume {
-    border: 2px solid rgb(230, 114, 46);
+    border: 2px solid #FB923C;
     padding: 9px;
     border-radius: 22px;
     margin: 2px;
@@ -65,4 +65,29 @@ main nav a {
     border-radius: 22px;
     margin: 2px;
     width: 110px;
+}
+
+.aboutMe{
+    background-color: rgb(38,38,38);
+    color: #ffffff;
+    display: flex;
+    padding: 200px;
+    justify-content: center;
+    gap: 160px;
+    font-size: 0.9rem;
+    color: rgb(210, 202, 202);
+    font-weight: 100;
+    line-height: 30px;
+   
+}
+
+.abt-col2 {
+   
+}
+
+.inst {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 2px;
 }
