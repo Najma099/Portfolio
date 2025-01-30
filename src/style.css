@@ -94,7 +94,7 @@ main nav a:hover {
     background-color: rgb(38, 38, 38);
     color: #ffffff;
     display: flex;
-    padding: 100px 200px; 
+    padding: 100px 220px; 
     justify-content: center;
     gap: 160px;
     font-size: 0.9rem;
@@ -105,17 +105,17 @@ main nav a:hover {
 }
 
 #abt-col1 {
-    margin-top: 48px;
+    margin-top: 75px;
 }
 
 #abt-col1 img {
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(134, 131, 131, 0.2);
 }
 
 .inst {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     padding: 2px;
 }
@@ -128,4 +128,53 @@ main nav a:hover {
 .inst h4 {
     font-size: 1.1rem;
     color: white; 
+}
+
+/* edu skills project */
+.main-sec {
+    padding: 100px 250px;
+    background-color: #ffffff; 
+}
+
+#edu {
+    border-bottom: 2px solid rgb(163, 161, 161);
+    display: flex;
+    gap: 160px;
+    margin-bottom: 100px;
+}
+
+#edu-head {
+    margin-bottom: 50px;
+    border-bottom: 2px solid #FB923C;
+    font-weight: 400;
+    font-size: 2.5rem; 
+    color: #333;
+}
+
+#edu h4 {
+    font-size: 1.5rem; 
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.inner-text {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.in-1 {
+    font-size: 1rem; 
+    color: rgb(86, 83, 83);
+}
+
+.in-2 {
+    font-size: 1.5rem; 
+    color: #FB923C; 
+}
+
+.in-3 {
+    margin-top: 10px;
+    font-size: 0.9rem; 
+    color: rgb(150, 144, 144);
 }
