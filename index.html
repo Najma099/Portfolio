@@ -3,56 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Najma Khatun - Portfolio</title>
     <link rel="stylesheet" href="./src/style.css">
     <!-- Bootstrap Icons (CDN) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-
 </head>
 <body>
+    <!-- Cover Page -->
     <main>
-        <div>
-            <h2 id="name">I'm Najma Khatun.</h2>
-            <nav>
-                <span>
-                    <a class="bi bi-github" href="https://github.com/Najma099"></a>
-                </span>
-                <span>
-                    <a class="bi bi-linkedin" href="https://www.linkedin.com/in/najma-khatun/"></a>
-                </span>
-                <span>
-                    <a class="bi bi-code-slash" href="https://leetcode.com/u/najmakhatun0999/"></a>
-                </span>
+        <div class="cover-container">
+            <h1 id="name">I'm Najma Khatun.</h1>
+            <nav class="social-links">
+                <a class="bi bi-github" href="https://github.com/Najma099" target="_blank"></a>
+                <a class="bi bi-linkedin" href="https://www.linkedin.com/in/najma-khatun/" target="_blank"></a>
+                <a class="bi bi-code-slash" href="https://leetcode.com/u/najmakhatun0999/" target="_blank"></a>
             </nav>
             <div id="cover-btn">
-                <div id = "resume">Resume <span class = "bi bi-download"></span></div>
-                <div id = "contact">Contact</div>
+                <a id="resume" href="./public/resume.pdf" download>Resume <span class="bi bi-download"></span></a>
+                <a id="contact" href="#contact-section">Contact</a>
             </div>
         </div>
     </main>
 
-    <!-- ABOUT ME -->
-    <section class ="aboutMe">
+    <!-- About Me Section -->
+    <section class="aboutMe">
         <div id="abt-col1">
-            <!-- img -->
-             <img src="./public/Images/photo.jpg" height="200" width="220">
+            <img src="./public/Images/photo.jpg" alt="Najma Khatun" height="200" width="220">
         </div>
         <div id="abt-col2">
-            <!--  -->
-            <h3>
-                About me
-            </h3>
+            <h2>About Me</h2>
             <p>
                 I am passionate about data science and web development, with a solid foundation in data structures and a strong problem-solving mindset. Through competitive programming, I have sharpened my logical thinking and analytical skills. In addition to my growing knowledge of data science, I am deeply interested in web development, particularly in both front-end and back-end technologies like HTML, CSS, JavaScript, and frameworks such as React and Node.js. I am eager to apply my skills in real-world projects, contribute to meaningful work, and collaborate with experienced professionals to continue learning and evolving in both data science and web development.
             </p>
             <div class="inst">
-                <h4><span></span>Interest: </h4>
-                <p>
-                    coding, reading books
-                </p>
+                <h4>Interest:</h4>
+                <p>Coding, Reading Books</p>
             </div>
         </div>
     </section>
-    
 </body>
 </html>
