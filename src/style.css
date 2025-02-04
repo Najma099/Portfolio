@@ -1,15 +1,16 @@
-@import "../node_modules/bootstrap/dist/css/bootstrap.css";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
 /* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
+    font-family: "Ovo", serif;
+    font-weight: 400;
     font-style: normal;
+    color: #ffffff;
+    
 }
+
 
 /* Cover Page */
 main {
@@ -28,7 +29,7 @@ main {
 #name {
     color: white;
     font-size: 4.2rem;
-    font-weight: 530;
+    font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -97,7 +98,7 @@ main nav a:hover {
     padding: 100px 220px; 
     justify-content: center;
     gap: 160px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: rgb(210, 202, 202);
     font-weight: 100;
     line-height: 30px;
@@ -136,45 +137,7 @@ main nav a:hover {
     background-color: #ffffff; 
 }
 
-#edu {
-    border-bottom: 2px solid rgb(163, 161, 161);
-    display: flex;
-    gap: 160px;
-    margin-bottom: 100px;
-}
 
-#edu-head {
-    margin-bottom: 50px;
-    border-bottom: 2px solid #FB923C;
-    font-weight: 400;
-    font-size: 2.5rem; 
-    color: #333;
-}
-
-#edu h4 {
-    font-size: 1.5rem; 
-    color: #333;
-    margin-bottom: 10px; 
-}
-
-.inner-text {
-    display: flex;
-    align-items: center;
-    gap: 10px; 
-}
-
-.in-1 {
-    font-size: 1rem; 
-    color: rgb(86, 83, 83);
-}
-
-.in-2 {
-    font-size: 1.5rem; 
-    color: #FB923C; 
-}
-
-.in-3 {
-    margin-top: 10px;
-    font-size: 0.9rem; 
-    color: rgb(150, 144, 144);
+.main-sec {
+    background-color: rgb(38, 38, 38);
 }
